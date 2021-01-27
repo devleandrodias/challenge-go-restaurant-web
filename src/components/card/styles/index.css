@@ -1,0 +1,75 @@
+.card {
+  border-radius: 8px;
+}
+
+.card-header {
+  display: flex;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #f0f0f5;
+  padding: 25px;
+}
+
+.food-image {
+  width: 100%;
+}
+
+.card-footer {
+  background-color: #e4e4eb;
+  padding: 25px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.food-label {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #3d3d4d;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #3d3d4d;
+  margin: 15px 0px;
+}
+
+.price {
+  color: #39b100;
+  display: flex;
+  font-size: 24px;
+  line-height: 34px;
+  align-items: center;
+}
+
+.price-currency {
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.price-money {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.group-button-action {
+  display: flex;
+}
+
+.button-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+}
