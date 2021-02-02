@@ -133,3 +133,43 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* Estilizando o form */
+
+.form-container {
+  display: "flex";
+  padding: 30px;
+  flex-direction: "column";
+  font-family: "Roboto";
+}
+
+.form-container .title {
+  font-family: "Poppins";
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.form-container .group-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 24px;
+}
+
+.form-container input {
+  background-color: #fff;
+  border: none;
+  margin-top: 8px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.form-container label {
+  width: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6c6c80;
+}
